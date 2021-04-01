@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Yatra One', cursive;
+}
+body {
+    background-image:url(assets/background.jpg);
+}
+.capa-filmes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.capa-filmes img {
+    border-radius: 25px;
+    box-shadow: 0 3px 8px 0 black;
+    width: 250px;
+    max-height: 350px;
+    margin: 1em;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(165, 101, 42);
+    text-shadow: 0 0.5px 0.5px black;
+}
+ul {
+    padding-left: 1.5em;
+}
+li {
+    list-style-image: url(assets/compass.png);
+    margin-bottom: 1em;
+}
+.texto-importante {
+    font-weight: bold;
+    color: rgb(165, 101, 42);
+}
+.card {
+    max-width: 500px;
+    margin: 2em auto;
+    text-align: justify;
+    padding: 1em;
+}
+.card img {
+    display: flex;
+    flex-shrink: initial;
+    border-radius: 25px;
+    box-shadow: 0 3px 8px 0 black;
+    max-width: 100%;
+}
