@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image:url(images/background.jpg);
+    background-image: url(images/background.jpg);
     font-family: 'Yatra One', cursive;
 }
 
@@ -58,11 +58,22 @@ article {
 }
 
 article img {
-    display: flex;
-    flex-shrink: initial;
     border-radius: 25px;
     box-shadow: 0 3px 8px 0 black;
+    display: flex;
+    flex-shrink: initial;
     max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+}
+
+audio {
+    border: 5px solid var(--brown-500);
+    border-radius: 5.5rem;
 }
 
 footer {
